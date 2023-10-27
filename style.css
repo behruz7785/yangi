@@ -1,0 +1,238 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
+  text-decoration: none;
+  transition: all ease-in-out 0.3s;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+nav {
+  height: 80px;
+  position: sticky;
+  left: 0;
+  top: 0;
+  background: white;
+}
+
+nav .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .container .logo {
+  font-size: 30px;
+  color: blueviolet;
+}
+
+nav .container ul {
+  display: flex;
+  gap: 30px;
+}
+
+nav .container ul li a {
+  color: blueviolet;
+}
+
+nav .container button { 
+  padding: 10px;
+  font-size: 18px;
+  /* background: orangered; */
+  background: rgba(0, 128, 0, 0.505);
+  border: none;
+  border-radius: 10px 0;
+}
+
+nav .container button:hover {
+  background: rgba(0, 128, 0, 0.861);
+  border-radius: 10px;
+}
+
+nav .container button a {
+  color: white;
+}
+
+.first {
+  height: 100vh;
+  background: linear-gradient(to left , rgba(0, 0, 0, 0.663) , rgba(0, 0, 0, 0.641)),url(https://www.academicinfo.net/static/2dcaed65d6f7073fc50ed3d7f6669662/14b42/dressmaking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.first .container .box {
+  max-width: 600px;
+}
+
+.first .container .box p {
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  margin: 20px 0;
+  left: 0px;
+}
+
+.first .container .box h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.first .container button {
+  padding: 10px;
+  font-size: 18px;
+  background: rgba(0, 128, 0, 0.982);
+  border: none;
+  border-radius: 10px 0;
+}
+
+.first .container button:hover {
+  background: rgba(0, 128, 0, 0.78);
+  border-radius: 10px;
+}
+
+.first .container button a {
+  color: white;
+}
+
+.second {
+  margin: 80px 0;
+}
+
+.second h1 {
+  font-weight: 500;
+  color: blueviolet;
+  font-size: 30px;
+}
+
+.second .container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.second .container .left {
+  width: calc(100% / 2 - 30px);
+  text-align: start;
+}
+
+.second .container .left p {
+  margin: 20px 0;
+  color: grey;
+}
+
+.second .container .left button {
+  padding: 10px;
+  font-size: 18px;
+  /* background: orangered; */
+  background: rgba(0, 128, 0, 0.55);
+  border: none;
+  border-radius: 10px 0;
+}
+
+.second .container .left button:hover {
+  background: rgba(0, 128, 0, 0.814);
+  border-radius: 10px;
+}
+
+.second .container .left button a {
+  color: white;
+}
+
+.second .container img {
+  width: calc(100% / 3 - 30px);
+  border-radius: 10px;
+}
+
+.third {
+  margin: 60px 0;
+}
+
+.third h1 {
+  font-weight: 500;
+  /* color: blueviolet; */
+  color: blueviolet;
+  font-size: 30px;
+}
+
+.third .container {
+  padding: 50px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.third .container .card {
+  width: calc(100% / 4 - 20px);
+  border: 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.third .container .card picture img {
+  width: 100%;
+}
+
+.third .container .card .text-field {
+  padding: 10px;
+}
+
+.third .container .card .text-field .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+.third .container .card .text-field button {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 0;
+  /* background: orangered; */
+  background: rgba(0, 128, 0, 0.542);
+  border: none;
+  border-radius: 10px;
+}
+
+.third .container .card .text-field button a {
+  color: white;
+}
+
+footer {
+  height: 120px;
+  background: rgb(16, 196, 16);
+}
+
+footer .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer .container h3 {
+  font-size: 14px;
+  color: white;
+}
+
+footer .container i {
+  font-size: 20px;
+  color: white;
+  right: 5px;
+  top: 5px;
+}
